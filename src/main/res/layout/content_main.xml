@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="729dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView_Main_LogoIut"
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/Main_ImageView_ContentDescription"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/logoiut" />
+
+        <TextView
+            android:id="@+id/textView_Main_Titre"
+            android:layout_width="match_parent"
+            android:layout_height="9dp"
+            android:layout_weight="1"
+            android:text="@string/Main_Titre"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textSize="36sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/textView_Main_TexteExplicatif"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_weight="1"
+            android:lineSpacingExtra="10sp"
+            android:text="@string/Main_TexteAttente"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="514dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="197dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_Main_FAQ"
+                android:layout_width="115dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:drawableStart="@android:drawable/ic_menu_help"
+                android:text="@string/Main_Bouton_FAQ" />
+
+            <Button
+                android:id="@+id/button_Main_Visite"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableStart="@android:drawable/ic_dialog_map"
+                android:text="@string/Main_Bouton_Visite" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_Main_Test"
+                android:layout_width="157dp"
+                android:layout_height="71dp"
+                android:layout_weight="1"
+                android:text="@string/Main_Bouton_Test" />
+
+            <Button
+                android:id="@+id/button_Main_Autres"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/Main_Bouton_Autres" />
+        </LinearLayout>
+    </LinearLayout>
+
+</android.widget.LinearLayout>

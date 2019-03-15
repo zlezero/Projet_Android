@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">JPO</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="Main_Bouton_FAQ">Foire aux questions</string>
+    <string name="Main_Titre">Bienvenue à la journée porte ouverte !</string>
+    <string name="Main_TexteAttente">En attendant la venue d\'un professeur ou d\'un étudiant vous pouvez déjà découvrir notre sublime formation grâce aux boutons ci-dessous :</string>
+    <string name="Main_ImageView_ContentDescription">Logo de l\'IUT</string>
+    <string name="Main_Bouton_Visite">Visiter le département informatique</string>
+    <string name="Main_Bouton_Test">Etes-vous fait pour le DUT Info ?</string>
+    <string name="Main_Bouton_Autres">Autres / Contact</string>
+    <string name="title_activity_faq">FAQ</string>
+
+</resources>
